@@ -44,7 +44,7 @@
     </node>
 
     <node pkg="joystick_vehicle_test" type="joystick_vehicle_test" name="joystick_vehicle_test"
-      args="-f $(find joystick_vehicle_test)/joystick_vehicle_test.json" output="screen"/>
+      args="-f $(find joystick_vehicle_test)/gazebo_joystick_vehicle_test.json" output="screen"/>
 
     <node pkg="speed_model" type="speed_model" name="speed_model"
       args="-f $(find speed_model)/core_speed_model/speed_model.json" output="screen"/>

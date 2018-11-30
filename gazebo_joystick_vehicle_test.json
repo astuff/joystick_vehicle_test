@@ -1,0 +1,38 @@
+{
+    "publish_interval": 0.05,
+
+    "joy_fault_timeout": 10.0,
+
+    "vel_controller_name": "/as/veh_controller",
+
+    "engage1_button": 6,
+    "engage2_button": 7,
+
+    "park_button": 3,
+    "neutral_button": 2,
+    "drive_button": 0,
+    "reverse_button": 1,
+
+    "right_turn_button": 5,
+    "left_turn_button": 4,
+
+    "speed_axes": 7,
+    "speed_up_sign": 1,
+    "speed_step": 1.0,
+    "speed_max": 100.0,
+    "acceleration_limit": 20.0,
+    "deceleration_limit": 2.5,
+    "brake_axes": 2,
+    "brake_sign": 1,
+    "max_deceleration_limit": 4.0,
+
+    "steer_btn_axes": 6,
+    "steer_btn_sign": 1,
+    "steer_btn_step": 0.01,
+    "steering_axes": 3,
+    "steering_sign": 1.0,
+    "steering_gain": 0.12,
+    "steering_exponent": 2.5,
+    "max_curvature_rate": 0.1
+
+}
